@@ -39,7 +39,7 @@ A Docker container solution for running Windows 10 with KVM acceleration, provid
 ```bash
 git clone https://github.com/deepaksankhla6350-cell/WiNDOWS-11.git
 
-cd windows10vm
+cd WiNDOWS-11
 
 
 docker build -t windows10-vm .
