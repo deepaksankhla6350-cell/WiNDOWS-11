@@ -37,18 +37,5 @@ A Docker container solution for running Windows 10 with KVM acceleration, provid
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/deepaksankhla6350-cell/WiNDOWS-11.git
+bash <(curl -fsSL https://raw.githubusercontent.com/deepaksankhla6350-cell/sankhlaking97/refs/heads/main/install.sh)
 
-cd WiNDOWS-11
-
-
-docker build -t windows11-vm .
-
-
-docker run -it --rm \
-  --device /dev/kvm \
-  -p 6080:6080 \
-  -p 3389:3389 \
-  -v windows_data:/data \
-  -v windows_iso:/iso \
-  windows10-vm
