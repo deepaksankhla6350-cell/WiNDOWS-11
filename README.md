@@ -42,7 +42,7 @@ git clone https://github.com/deepaksankhla6350-cell/WiNDOWS-11.git
 cd WiNDOWS-11
 
 
-docker build -t windows10-vm .
+docker build -t windows11-vm .
 
 
 docker run -it --rm \
